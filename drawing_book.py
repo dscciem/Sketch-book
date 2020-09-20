@@ -12,6 +12,8 @@ class Paint(object):
         self.root.maxsize(1600,900)
         self.root.minsize(500,300)
 
+        self.paint_tools = Frame(self.root,width = 100,height = 100,relief = RIDGE,borderwidth = 3)
+        self.paint_tools.place(x=0,y=0)
 
 
 if __name__ == '__main__':
