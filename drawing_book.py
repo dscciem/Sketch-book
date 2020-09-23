@@ -33,6 +33,12 @@ class Paint(object):
         self.color_button = Button(self.paint_tools,image = self.color_logo,borderwidth = 2,command=self.choose_color)
         self.color_button.place(x=60,y=70)
 
+        self.eraser_logo = ImageTk.PhotoImage(Image.open('logos/eraser.png'))
+        self.e = Label(self.paint_tools,text = 'Eraser',borderwidth = 0,font= ('verdana',10,'bold'))
+        self.e.place(x=5,y=100)
+        self.eraser_button = Button(self.paint_tools,image = self.eraser_logo.borderwidth = 2,command=self.use_eraser)
+        self.eraser_button.place(x=60,y=100)
+
 
 if __name__ == '__main__':
     Paint()
