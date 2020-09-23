@@ -59,6 +59,10 @@ class Paint(object):
         self.c.bind('<B1-Motion>',self.paint)
         self.c.bind('<ButtonRelease-1>',self.reset)
     
+    def use_pen(self):
+        self.activate_button(self.pen_button)
+    
+    
 
 
 if __name__ == '__main__':
