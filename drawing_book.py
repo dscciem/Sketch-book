@@ -21,6 +21,12 @@ class Paint(object):
         self.pen_button = Button(self.paint_tools,padx=6,image = self.pen_logo,borderwidth=2,command = self.use_pen)
         self.pen_button.place(x=60,y=10)
 
+        self.brush_logo = ImageTk.PhotoImage(Image.open('logos/brush.png'))
+        self.b = Label(self.paint_tools,text = 'Brush',borderwidth = 0,font= ('verdana',10,'bold'))
+        self.b.place(x=5,y=40)
+        self.brush_button = Button(self.paint_tools,image = self.brush_logo.borderwidth = 2,command=self.use_brush)
+        self.brush_button.place(x=60,y=40)
+        
 
 
 if __name__ == '__main__':
