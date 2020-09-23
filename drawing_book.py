@@ -36,12 +36,12 @@ class Paint(object):
         self.eraser_logo = ImageTk.PhotoImage(Image.open('logos/eraser.png'))
         self.e = Label(self.paint_tools,text = 'Eraser',borderwidth = 0,font= ('verdana',10,'bold'))
         self.e.place(x=5,y=100)
-        self.eraser_button = Button(self.paint_tools,image = self.eraser_logo.borderwidth = 2,command=self.use_eraser)
+        self.eraser_button = Button(self.paint_tools,image = self.eraser_logo,borderwidth = 2,command=self.use_eraser)
         self.eraser_button.place(x=60,y=100)
 
         self.pen_size = Label(self.paint_tools,text= "Pen Size",font= ('verdana',10,'bold'))
         self.pen_size.place(x=15,y=250)
-        self.choose_size_button = Scale(self.paint_tools, from = 0, to = 10,orient = VERTICAL)
+        self.choose_size_button = Scale(self.paint_tools, from_= 0, to = 10,orient = VERTICAL)
         self.choose_size_button.place(x=20,y=250)
         self.c = Canvas(self.root,bg = 'white',width = 1600, height = 1600,relief = RIDGE,borderwidth = 0)
         self.c.place(x=100,y=0)
@@ -78,7 +78,8 @@ class Paint(object):
         button.config(relief = SUNKEN)
         self.activate_button = button
     
-    
+    def reset(self,event):
+        self.old_x,self.old_y = None,None
 
 
 if __name__ == '__main__':
