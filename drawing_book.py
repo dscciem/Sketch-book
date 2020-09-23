@@ -45,9 +45,20 @@ class Paint(object):
         self.choose_size_button.place(x=20,y=250)
         self.c = Canvas(self.root,bg = 'white',width = 1600, height = 1600,relief = RIDGE,borderwidth = 0)
         self.c.place(x=100,y=0)
-        
+
         self.setup()
         self.root.mainloop()
+    
+    def setup(self):
+        self.old_x = None
+        self.old_y = None
+        self.line_width = self.choose_size_button.get()
+        self.color = self.DEFAULT_COLOR
+        self.eraser_on = False
+        self.active_button = self.pen_button
+        self.c.bind('<B1-Motion>',self.paint)
+        self.c.bind('<ButtonRelease-1>',self.reset)
+    
 
 
 if __name__ == '__main__':
