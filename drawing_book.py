@@ -72,6 +72,13 @@ class Paint(object):
         self.eraser_on = False
         self.color = askcolor(color=self.color)[1]
 
+    def activate_button(self,button,eraser_mode=False):
+        self.eraser_on = eraser_mode
+        self.active_button.config(relief = RAISED)
+        button.config(relief = SUNKEN)
+        self.activate_button = button
+    
+    
 
 
 if __name__ == '__main__':
