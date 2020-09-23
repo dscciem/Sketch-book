@@ -42,7 +42,7 @@ class Paint(object):
         self.pen_size = Label(self.paint_tools,text= "Pen Size",font= ('verdana',10,'bold'))
         self.pen_size.place(x=15,y=250)
         self.choose_size_button = Scale(self.paint_tools, from_= 0, to = 10,orient = VERTICAL)
-        self.choose_size_button.place(x=20,y=250)
+        self.choose_size_button.place(x=20,y=150)
         self.c = Canvas(self.root,bg = 'white',width = 1600, height = 1600,relief = RIDGE,borderwidth = 0)
         self.c.place(x=100,y=0)
 
