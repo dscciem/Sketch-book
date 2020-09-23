@@ -24,9 +24,14 @@ class Paint(object):
         self.brush_logo = ImageTk.PhotoImage(Image.open('logos/brush.png'))
         self.b = Label(self.paint_tools,text = 'Brush',borderwidth = 0,font= ('verdana',10,'bold'))
         self.b.place(x=5,y=40)
-        self.brush_button = Button(self.paint_tools,image = self.brush_logo.borderwidth = 2,command=self.use_brush)
+        self.brush_button = Button(self.paint_tools,image = self.brush_logo,borderwidth = 2,command=self.use_brush)
         self.brush_button.place(x=60,y=40)
-        
+
+        self.color_logo = ImageTk.PhotoImage(Image.open('logos/color.png'))
+        self.cl = Label(self.paint_tools,text = 'Color',borderwidth = 0,font= ('verdana',10,'bold'))
+        self.cl.place(x=5,y=70)
+        self.color_button = Button(self.paint_tools,image = self.color_logo,borderwidth = 2,command=self.choose_color)
+        self.color_button.place(x=60,y=70)
 
 
 if __name__ == '__main__':
