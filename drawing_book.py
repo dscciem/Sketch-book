@@ -65,6 +65,9 @@ class Paint(object):
     def use_brush(self):
         self.activate_button(self.brush_button)
 
+    def use_eraser(self):
+        self.activate_button(self.eraser_button,eraser_on=True)
+
     
 
 
