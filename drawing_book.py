@@ -81,6 +81,13 @@ class Paint(object):
     def reset(self,event):
         self.old_x,self.old_y = None,None
 
+    def paint(self,event):
+        self.line_width = self.choose_size_button.get()
+        paint_color = 'white' if self.eraser_on else self.color
+        if self.old_x and self.old_y:
+            self.c.create_line(self.old_x,self.old_y,event.x,event.y,width =self.line_width,fill = paint_color,capstyle = ROUND,smooth = True,splinesteps=36)
+        self.old_y=event.y
+        self.old_x=event.x
 
 if __name__ == '__main__':
     Paint()
