@@ -1,7 +1,7 @@
 # Sketch-book
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sagnik20/drawing-book/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/sagnik20/ama) [![GitHub issues](https://img.shields.io/github/issues/sagnik20/drawing-book)](https://github.com/sagnik20/drawing-book/issues)
-[![GitHub forks](https://img.shields.io/github/forks/sagnik20/drawing-book?style=social)](https://github.com/sagnik20/drawing-book/network) [![GitHub stars](https://img.shields.io/github/stars/sagnik20/drawing-book?style=social)](https://github.com/sagnik20/drawing-book/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/dscciem/Sketch-book/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/sagnik20/ama) [![GitHub issues](https://img.shields.io/github/issues/dscciem/Sketch-book)](https://github.com/dscciem/Sketch-book/issues)
+[![GitHub forks](https://img.shields.io/github/forks/dscciem/Sketch-book?style=social)](https://github.com/dscciem/Sketch-book/network) [![GitHub stars](https://img.shields.io/github/stars/dscciem/Sketch-book?style=social)](https://github.com/dscciem/Sketch-book/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 This Project uses `Tkinter` library of python to build a Paint like application.
 
