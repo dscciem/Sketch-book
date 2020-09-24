@@ -16,7 +16,7 @@ This Project uses `Tkinter` library of python to build a Paint like application.
 If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
 
 ## Project 
-### Created by Sagnik Chattopadhyaya
+### Created by [Sagnik Chattopadhyaya](https://github.com/sagnik20)
 >Microsoft Student Partner, Student, Working for betterment of all, Competitive Coder, YouTuber
 
 <a href="https://twitter.com/sagnik_20"><img src="https://github.com/tombryan/social-icon-font/blob/master/svg/twitter.svg?raw=true" width="60"></a>
@@ -27,5 +27,5 @@ If you found this project useful, then please consider giving it a :star: on Git
 <a href="https://instagram.com/sagnik20"><img src="https://github.com/tombryan/social-icon-font/blob/master/svg/instagram.svg?raw=true" width="60"></a>
 <a href="https://www.sagnik.engineer/"><img src="https://github.com/tombryan/social-icon-font/blob/master/svg/wordpress.svg?raw=true" width="60"></a>
 
-### Maintained by Team [DSC-CIEM](https://github.com/dscciem)
+### Maintained by Team [DSC-CIEM](https://dsc.community.dev/calcutta-institute-of-engineering-and-management/)
 
