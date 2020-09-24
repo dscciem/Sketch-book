@@ -9,7 +9,7 @@ This Project uses `Tkinter` library of python to build a Paint like application.
 
 - Open Command Promt / PowerShell 
 - Type `cd ./Sketch-book` and hit ENTER
-- Type `python drawing-book.py` and hit ENTER
+- Type `python sketch.py` and hit ENTER
 
 ### :heart: Found this project useful?
 
